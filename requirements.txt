@@ -102,5 +102,4 @@ zope.event==5.0
 zope.interface==6.0
 djangorestframework==3.15.1
 drf-yasg==1.21.7
-gyp==0.1
 uritemplate==4.1.1
