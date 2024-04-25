@@ -13,7 +13,7 @@ wsconn = WSData()
 def startdata(request):
     connect = request.POST.get('connect')
     subscription = request.POST.get('quote')
-
+    global wsconn
     thr = threading.Thread(target=wsconn.startWS, args=(connect, subscription), kwargs={})
     thr.start()
     return Response({'message': 'Successful'})
@@ -23,6 +23,7 @@ def stopdata(request):
     # stopStream()
     return Response({'message': 'Successful'})
 
-@api_view(['POST'])
-def fetchdata(request):
+@api_view(['GET'])
+def getdata(request):
+    global wsconn
     return Response(ast.literal_eval(wsconn.getData()))
