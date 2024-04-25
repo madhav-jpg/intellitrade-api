@@ -23,6 +23,6 @@ def stopdata(request):
     # stopStream()
     return Response({'message': 'Successful'})
 
-@api_view(['GET'])
+@api_view(['POST'])
 def getdata(request):
     return Response(ast.literal_eval(wsconn.getData()))
