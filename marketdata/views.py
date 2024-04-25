@@ -24,5 +24,5 @@ def stopdata(request):
     return Response({'message': 'Successful'})
 
 @api_view(['POST'])
-def getdata(request):
+def fetchdata(request):
     return Response(ast.literal_eval(wsconn.getData()))
