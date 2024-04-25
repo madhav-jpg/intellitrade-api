@@ -3,7 +3,6 @@ appdirs==1.4.4
 attrs==23.1.0
 autobahn==23.6.2
 Automat==22.10.0
-billiard==4.1.0
 certifi==2023.5.7
 cffi==1.15.1
 charset-normalizer==3.1.0
@@ -13,8 +12,6 @@ click-plugins==1.1.1
 click-repl==0.3.0
 colorama==0.4.6
 constantly==15.1.0
-contourpy==1.1.0
-cron-descriptor==1.4.0
 cryptography==41.0.1
 cssselect==1.2.0
 cycler==0.11.0
@@ -26,7 +23,6 @@ feedparser==6.0.10
 fonttools==4.42.0
 frozendict==2.3.8
 gevent==23.7.0
-greenlet==2.0.2
 html5lib==1.1
 hyperlink==21.0.0
 idna==3.4
@@ -42,11 +38,9 @@ numpy==1.25.2
 packaging==23.1
 pandas==2.0.3
 parse==1.19.1
-Pillow==10.0.0
 prompt-toolkit==3.0.39
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
-pycoingecko==3.1.0
 pycparser==2.21
 pycrypto==2.6.1
 pyee==8.2.2
@@ -68,9 +62,6 @@ sgmllib3k==1.0.0
 simplejson==3.19.1
 six==1.16.0
 smartapi-python==1.4.8
-soupsieve==2.4.1
-sqlparse==0.4.4
-tenacity==8.2.3
 tqdm==4.65.2
 Twisted==22.10.0
 txaio==23.1.1
@@ -84,9 +75,6 @@ websocket==0.2.1
 websocket-client==1.6.0
 websockets==10.4
 whitenoise==6.6.0
-zipp==3.16.2
-zope.event==5.0
-zope.interface==6.0
 djangorestframework==3.15.1
 drf-yasg==1.21.7
 uritemplate==4.1.1
