@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-@c6g8v_6tcv=2q^5_d2mhdrfak@#xna4e1z48)-a(mljpf+o0g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['intellitrade-api.azurewebsites.net']
 
 
 # Application definition
